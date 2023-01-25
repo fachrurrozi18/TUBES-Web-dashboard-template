@@ -1,0 +1,570 @@
+* {
+    font-family: "Poppins";
+    margin: 0;
+    padding-bottom: 0;
+  }
+  .row1,
+  .row2,
+  .bph-row {
+    display: flex;
+    padding: 20px 220px;
+  }
+  .kabinet {
+    padding-top: 2rem;
+    text-align: center;
+    color: white;
+    background-color: #004189;
+  }
+  .judul-kabinet {
+    border-bottom: 2px solid #f87f2c;
+    display: inline;
+    font-size: 32px;
+    font-weight: 1000;
+  }
+  .ketua {
+    padding-right: 60px;
+  }
+  .wakil {
+    padding-left: 60px;
+  }
+  .bph {
+    padding-right: 60px;
+  }
+  .bph h2,
+  .judul-visi,
+  .judul-misi {
+    color: #f87f2c;
+    margin-bottom: 10px;
+  }
+  .visi,
+  .misi {
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .visi p,
+  .misi p,
+  .bph-row p {
+    text-align: justify;
+  }
+  .bph-row p {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .kabinet svg {
+    position: relative;
+    bottom: -10px;
+  }
+  
+  /* bagian putih */
+  .internal,
+  .eksternal,
+  .it,
+  .pubdok {
+    text-align: center;
+    padding: 20px 220px;
+    color: #004189;
+  }
+  .internal h1,
+  .eksternal h1,
+  .it h1,
+  .pubdok h1 {
+    border-bottom: 2px solid #f87f2c;
+    display: inline;
+  }
+  .anggota-internal,
+  .anggota-it {
+    padding-left: 20px;
+  }
+  .anggota-eksternal,
+  .anggota-pubdok {
+    padding-right: 40px;
+  }
+  .anggota-internal h4,
+  .anggota-eksternal h4,
+  .anggota-it h4,
+  .anggota-pubdok h4 {
+    color: #f87f2c;
+  }
+  .internal .container,
+  .eksternal .container,
+  .it .container,
+  .pubdok .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .internal .container .kadept-internal,
+  .it .container .kadept-it {
+    padding-right: 40px;
+  }
+  .eksternal .container .kadept-eksternal,
+  .pubdok .container .kadept-pubdok {
+    padding-left: 20px;
+  }
+  .internal .container .desc,
+  .eksternal .container .desc,
+  .it .container .desc,
+  .pubdok .container .desc {
+    text-align: justify;
+  }
+
+
+/* START OF CSS SLIDER EVENT */
+* {
+    box-sizing: border-box;
+}
+
+
+.cont-event {
+    /* padding: 0 0 0 0;
+    margin-top: 0%;
+    margin-bottom: 5%; */
+    font-family: Verdana, sans-serif;
+}
+
+.content-slide-event {
+    max-width: 4000px;
+    position: relative;
+    /* margin: auto; */
+}
+
+.prev-event,
+.next-event {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: auto;
+    padding: 16px;
+    color: rgb(255, 254, 224);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.8); 
+    margin: 0;
+}
+
+.next-event {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.pre:hover,
+.next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #084386;
+}
+
+.content-slide-event .numberslide {
+    align-items: center;
+    color: #ffffff;
+    font-size: 12px;
+    /* padding: 8px 12px; */
+    position: absolute;
+    top: 0;
+}
+
+.cont-event .page-event {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.page-event .dot-event {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 0 0 0;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 50%;
+}
+
+.cont-event img {
+    height: 500px; 
+    width: 3200px;
+    vertical-align: middle;
+}
+
+.page-event .active,
+.page-event .dot:hover {
+    background-color: #fd8c05;
+}
+/* END OF CSS SLIDER EVENT */
+
+
+/* START OF CSS SLIDER INTERNAL */
+* {
+    box-sizing: border-box;
+}
+
+
+.cont {
+    padding: 0 0 0 0;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    font-family: Verdana, sans-serif;
+}
+
+.content-slide {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    width: auto;
+    padding: 20px;
+    color: #084386;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: white; 
+
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.pre:hover,
+.next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #084386;
+}
+
+.content-slide .numberslide {
+    align-items: center;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.box{
+    width: 20%;
+    height: 50px; 
+    margin: 10px;
+    box-sizing:  border-box;
+    font-size: 20px;
+    background-color: #084386;
+    border-radius: 8px;
+    font-style: helvetica;
+}
+
+a{
+    font-family: sans-serif;
+    text-decoration: none;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    color: white;
+    justify-content: center; 
+    align-items: center;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cont .page {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.page .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 50%;
+}
+
+.page .active,
+.page .dot:hover {
+    background-color: #fd8c05;
+}
+/* END OF CSS SLIDER INTERNAL */
+
+
+/* START SLIDE HMIK EKSTERNAL */
+.cont2 {
+    padding: 0 0 0 0;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    font-family: Verdana, sans-serif;
+}
+
+.content-slide2 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev2,
+.next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    width: auto;
+    padding: 20px;
+    color: #084386;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: white; 
+
+}
+
+.next2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.content-slide2 .numberslide {
+    align-items: center;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.cont2 .page2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.page2 .dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 50%;
+}
+
+.page2 .active,
+.page2 .dot:hover {
+    background-color: #fd8c05;
+}
+/* END SLIDE HMIK EKSTERNAL */
+
+
+/* START SLIDE HMIK PENDIDIKAN */
+.cont3 {
+    padding: 0 0 0 0;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    font-family: Verdana, sans-serif;
+}
+
+.content-slide3 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev3,
+.next3 {
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    width: auto;
+    padding: 20px;
+    color: #084386;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: white; 
+
+}
+
+.next3 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.content-slide3 .numberslide {
+    align-items: center;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.cont3 .page3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.page3 .dot3 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 50%;
+}
+
+.page3 .active,
+.page3 .dot:hover {
+    background-color: #fd8c05;
+}
+/* END SLIDE HMIK PENDIDIKAN */
+
+
+/* START SLIDE HMIK PUBDOK */
+.cont4 {
+    padding: 0 0 0 0;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    font-family: Verdana, sans-serif;
+}
+
+.content-slide4 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev4,
+.next4 {
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    width: auto;
+    padding: 20px;
+    color: #084386;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: white; 
+
+}
+
+.next4 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.content-slide4 .numberslide {
+    align-items: center;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.cont4 .page4 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.page4 .dot4 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 50%;
+}
+
+.page4 .active,
+.page4 .dot:hover {
+    background-color: #fd8c05;
+}
+
+/* END SLIDE HMIK PUBDOK */
+
+@media screen and (max-width: 800px) {
+
+    .content-slide1 {
+        padding: 8px 50px 12px 50px;
+    }
+
+    .content-slide2 {
+        padding: 8px 50px 12px 50px;
+    }
+
+    .content-slide3 {
+        padding: 8px 50px 12px 50px;
+    }
+
+    .content-slide4 {
+        padding: 8px 50px 12px 50px;
+    }
+
+    .next1 {
+        right: 50px;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .next2 {
+        right: 50px;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .next3 {
+        right: 50px;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .next4 {
+        right: 50px;
+        border-radius: 3px 0 0 3px;
+    }
+    
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }    
+    to {
+        opacity: 1;
+    }
+}

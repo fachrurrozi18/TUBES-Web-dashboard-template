@@ -1,0 +1,38 @@
+.form-registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-registration h1{
+    color: #004189;
+    margin: 20px;
+}
+.register-card{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    width: 25%;
+    margin: 200px;
+}
+.form-floating input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightslategrey;
+    padding: 10px;
+}
+.form-floating{
+    margin: 20px;
+    /* padding: 10px; */
+}
+.register-card button{
+    padding: 10px;
+    color: white;
+    background-color: #004189;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,50 @@
+.image {
+  height: 100%;
+}
+
+.image img {
+  max-width: 400px;
+  max-height: 100%;
+  border-radius: 15px;
+}
+
+.card {
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: #efefef;
+  width: 750px;
+  height: 300px;
+  margin: 30px 20px 20px 0px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card .container{
+  display: block;
+  padding-left: 20px;
+}
+
+.kotak {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* padding: 2px 16px; */
+  width: 80%;
+  margin: auto auto;
+}
+
+.kotak h2 {
+  color: #f87f2c;
+}
+
+.button {
+  background-color: #f87f2c;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 20px;
+}
